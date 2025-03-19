@@ -10,7 +10,7 @@ export default class Kepek{
 
     megjelenit(){
         for (let index = 0; index < this.#lista.length; index++) {
-            const KEP = new Kep(this.#lista[index].cim, this.#lista[index].src, null, this.szuloElem)
+            const KEP = new Kep(index, this.#lista[index].cim, this.#lista[index].src, null, this.szuloElem)
         }
     }
 }
